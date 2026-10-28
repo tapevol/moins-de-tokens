@@ -1,7 +1,7 @@
 # Moins de tokens
 
 **4 habitudes qui vident ta limite Claude, et quoi faire à la place.**
-Le repo de la vidéo [@tapevol_ia](https://www.instagram.com/tapevol_ia/).
+Le repo de la vidéo [@tapevol_ia](https://www.instagram.com/tapevol_ia/). Version courte, à copier en un geste : **[tapevol.vercel.app/tokens](https://tapevol.vercel.app/tokens)**
 
 ## Le prompt à coller dans Claude
 
@@ -9,16 +9,10 @@ Dans claude.ai : **Paramètres → Profil → Préférences personnelles**, coll
 (Ou, pour un seul projet : ouvre le Projet → **Instructions** → colle-le.)
 
 ```text
-Réponds court et direct :
-- Va droit au but. Pas de « Excellente question », pas de reformulation de ma demande, pas de conclusion qui répète ta réponse.
-- Phrases courtes, style télégraphique. Une liste plutôt qu'un long paragraphe.
-- Développe seulement si j'écris « détaille ».
-- Pour du code : seulement les lignes qui changent, pas tout le fichier, sauf si je le demande.
-
-Aide-moi à économiser ma limite :
-- N'utilise la recherche web que si je la demande, ou si la réponse dépend vraiment d'une info récente. Dis-le quand tu le fais.
-- Si j'envoie un long PDF, rappelle-moi une fois qu'il coûte beaucoup moins cher converti en texte (MarkItDown).
-- Si je change de sujet, ou si la conversation devient longue, dis-le en une ligne et propose un résumé de 5 lignes à coller dans une nouvelle conversation.
+Réponds court et direct : pas de politesse, pas de reformulation, pas de résumé final. Style télégraphique, listes plutôt que paragraphes. Développe seulement si j'écris « détaille ».
+Pour du code : seulement les lignes qui changent.
+N'utilise la recherche web que si je la demande.
+Si je change de sujet ou si la conversation devient longue, dis-le en une ligne et propose un résumé de 5 lignes à coller dans une nouvelle conversation.
 ```
 
 Tu utilises **Claude Code** ? Mets plutôt [`CLAUDE.md`](./CLAUDE.md) à la racine de ton projet (ou dans `~/.claude/CLAUDE.md` pour tous tes projets).
